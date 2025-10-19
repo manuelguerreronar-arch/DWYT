@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #e5f2f5;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 1fr 8fr 1fr;
+  height: 7dvh;
+  background: #284767;
+}
+
+nav button {
+  width: 100%;
+  height: 100%;
+}
+
+.funciones a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #b0cccb;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  background: #284767;
+}
+
+.funciones .buscar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #b0cccb;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  background: #284767;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.funciones a:hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #b0cccb;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  background: #74969f;
+}
+
+.funciones {
+  display: flex;
+  text-transform: uppercase;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.barraBusqueda {
+  position: relative;
+  height: 23px;
+  border-radius: 5px;
+  padding-left: 5px;
+  margin-right: 3px;
+  width: 100%;
+  background: #e5f2f5;
+}
+
+.lupa {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.6rem;
+  transition: transform 0.2s ease;
+}
+
+.lupa:active {
+  transform: scale(0.95);
+}
+
+@keyframes clickLupa {
+  0% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(1.2);
+  }
+  70% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.animar-lupa {
+  animation: clickLupa 0.5s ease;
+}
+
+.buscar button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  width: 25px;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.perfil {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.perfil :hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #74969f;
+  width: 100%;
+  height: 100%;
+}
+
+.logo :hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #74969f;
+  width: 100%;
+  height: 100%;
+}
+
+.logo button,
+.perfil button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.inconsolata {
+  font-family: "Inconsolata", monospace;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.color1 {
+  color: #284767;
+}
+.color2 {
+  color: #30596e;
+}
+.color3 {
+  color: #74969f;
+}
+.color4 {
+  color: #b0cccb;
+}
+.color5 {
+  color: #e5f2f5;
+}
