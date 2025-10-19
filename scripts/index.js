@@ -1,3 +1,5 @@
+//Animación lupa
+
 const botonLupa = document.querySelector(".lupa");
 
 botonLupa.addEventListener("click", () => {
