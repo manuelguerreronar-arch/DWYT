@@ -1,6 +1,6 @@
 //Animación lupa
 
-const botonLupa = document.querySelector(".lupa");
+const botonLupa = document.querySelector(".botonBuscar");
 
 botonLupa.addEventListener("click", () => {
   botonLupa.classList.add("animar-lupa");

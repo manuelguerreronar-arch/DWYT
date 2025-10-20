@@ -34,6 +34,7 @@ nav button {
   width: 100%;
   height: 100%;
   background: #284767;
+  padding: 0 8px;
 }
 
 .funciones .buscar {
@@ -51,14 +52,12 @@ nav button {
 }
 
 .funciones a:hover {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
-  color: #b0cccb;
-  cursor: pointer;
-  width: 100%;
-  height: 100%;
+  color: #284767;
+  background: #74969f;
+}
+
+.funciones a:active {
+  color: #84c7d6;
   background: #74969f;
 }
 
@@ -88,6 +87,10 @@ nav button {
 }
 
 .lupa:active {
+  transform: scale(0.95);
+}
+
+.lupa:hover {
   transform: scale(0.95);
 }
 
