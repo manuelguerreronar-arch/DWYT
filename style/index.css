@@ -165,6 +165,45 @@ nav button {
   display: none;
 }
 
+.cuerpo1 {
+  height: 200px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 0 0 0;
+}
+
+.introduccion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 80px;
+}
+
+.introduccion2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  margin-top: -10px;
+}
+
+.divUnirse {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.botonUnirse {
+  background-color: #284767;
+  color: #b0cccb;
+  border-radius: 15px;
+  border: none;
+  padding: 9px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
 .josefin-sans {
   font-family: "Josefin Sans", sans-serif;
   font-optical-sizing: auto;
