@@ -8,10 +8,8 @@
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style/index.css" />
@@ -20,34 +18,28 @@
   </head>
   <body>
     <header>
-      <nav>
+      <nav class="dm-sans">
         <div class="logo">
-          <button>
-            <p class="marca josefin-sans-bold">DWYT</p>
-          </button>
+          <button><p class="marca dm-sans-bold">DWYT</p></button>
         </div>
-        <div class="funciones josefin-sans">
-          <a href="#">Descubrir</a>
-          <a href="#">Comunidad</a>
-          <a href="#">Herramientas</a>
-          <a href="#">Sobre nosotros</a>
-          <div class="buscar">
-            <input
-              class="barraBusqueda josefin-sans"
-              type="search"
-              placeholder="Buscar"
-            /><button class="botonBuscar">
-              <span class="material-symbols-outlined lupa color4">
-                search
-              </span>
-            </button>
-          </div>
+        <div class="funciones dm-sans">
+          <button class="line" href="#">Descubrir</button>
+          <button class="line" href="#">Comunidad</button>
+          <button class="line" href="#">Herramientas</button>
+          <button class="line" href="#">Sobre nosotros</button>
+        </div>
+        <div class="buscar">
+          <input
+            class="barraBusqueda dm-sans"
+            type="search"
+            placeholder="Buscar"
+          /><button class="botonBuscar">
+            <span class="material-symbols-outlined lupa"> search </span>
+          </button>
         </div>
         <div class="perfil">
           <button>
-            <span class="material-symbols-outlined color4">
-              account_circle
-            </span>
+            <span class="material-symbols-outlined"> account_circle </span>
           </button>
         </div>
         <button class="menu-hamburguesa">
@@ -55,20 +47,8 @@
         </button>
       </nav>
     </header>
-    <div class="cuerpo1">
-      <div class="introduccion josefin-sans-bold">
-        <p>Haz que cada segundo cuente</p>
-      </div>
-      <div class="introduccion2 josefin-sans">
-        <p>
-          El tiempo no vuelve. Aprende a dominarlo con nuestra guía completa de
-          hábitos, consejos y ejercicios de productividad
-        </p>
-      </div>
-      <div class="divUnirse">
-        <button class="botonUnirse josefin-sans">Únete a DWYT</button>
-      </div>
-    </div>
+
+    <!--<div class="cuerpo1"> <div class="introduccion dm-sans"> <p>Haz que cada segundo cuente</p> </div> <div class="divUnirse"> <button class="botonUnirse dm-sans">Únete a DWYT</button> </div> </div>-->
     <script src="scripts/index.js"></script>
   </body>
 </html>
